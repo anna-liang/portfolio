@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    client:
+        build: ./
+        command: npm start
+        network_mode: host
