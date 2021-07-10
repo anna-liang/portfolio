@@ -1,0 +1,42 @@
+.projects {
+    height: 800px;
+}
+
+.project-left {
+    height: 300px;
+    width: 500px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow:
+        17.9px 17.9px 7px -2px rgba(0, 0, 0, 0.046),
+        35.3px 35.3px 23.5px -2px rgba(0, 0, 0, 0.09),
+        100px 100px 105px -2px rgba(0, 0, 0, 0.07),
+        -10px -10px 20px -2px rgba(0, 0, 0, 0.046)
+    ;
+}
+
+.project-right {
+    height: 300px;
+    width: 500px;
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow:
+        17.9px 17.9px 7px -2px rgba(0, 0, 0, 0.046),
+        35.3px 35.3px 23.5px -2px rgba(0, 0, 0, 0.09),
+        100px 100px 105px -2px rgba(0, 0, 0, 0.07),
+        -10px -10px 20px -2px rgba(0, 0, 0, 0.046)
+    ;
+}
+
+.show {
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
