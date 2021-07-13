@@ -3,8 +3,9 @@
     list-style: none;
     justify-content: space-around;
     position: fixed;
-    top: 0;
-    left: 0;
+    width: 50%;
+    top: 2%;
     right: 0;
-    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 3;
 }
