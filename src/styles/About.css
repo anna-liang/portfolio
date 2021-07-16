@@ -1,0 +1,42 @@
+h1, h4, p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* h1 {
+    border-bottom: 5px solid #BA181B;
+    padding-bottom: 3px;
+} */
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: 1000px;
+}
+
+.name {
+    color: #BA181B;
+}
+
+.my-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.info {
+    display: inline;
+    height: auto;
+    width: auto;
+    max-height: 50px;
+}
