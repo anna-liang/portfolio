@@ -1,3 +1,18 @@
+.header-container {
+    position: fixed;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 3px solid #BA181B;
+    background-color: #161A1D;
+    color: white;
+}
+
+li:hover, .selected {
+    color: #BA181B;
+}
+
 #header {
     display: flex;
     list-style: none;
