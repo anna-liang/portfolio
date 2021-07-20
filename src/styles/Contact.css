@@ -1,0 +1,45 @@
+/* h1 {
+    border-bottom: 5px solid #BA181B;
+} */
+
+p {
+    text-align: center;
+}
+
+textarea {
+    height: 200px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #161A1D;
+    color: white;
+    width: 100%;
+}
+
+.contact-form {
+    width: 40%;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-control {
+    background-color: #0B090A;
+    border-color: #0B090A;
+}
+
+.contact-desc {
+    width: 40%;
+}
+
+.contact-form-submit {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

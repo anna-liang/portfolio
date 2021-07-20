@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import About from './components/About';
-import Section from './components/Section';
+import Contact from './components/Contact';
 
 class App extends Component {
 
@@ -62,7 +62,7 @@ class App extends Component {
         <Home/>
         <About/>
         <Projects/>
-        <Section/>
+        <Contact/>
       </Fragment>
     );
   }
