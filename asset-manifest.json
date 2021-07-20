@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.22485c96.chunk.css",
-    "main.js": "/portfolio/static/js/main.f531b02b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f531b02b.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.ea5b0b32.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ea5b0b32.js.map",
-    "static/js/2.d5c5ed40.chunk.js": "/portfolio/static/js/2.d5c5ed40.chunk.js",
-    "static/js/2.d5c5ed40.chunk.js.map": "/portfolio/static/js/2.d5c5ed40.chunk.js.map",
-    "static/js/3.b511b131.chunk.js": "/portfolio/static/js/3.b511b131.chunk.js",
-    "static/js/3.b511b131.chunk.js.map": "/portfolio/static/js/3.b511b131.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.47fec12a.chunk.css",
+    "main.js": "/portfolio/static/js/main.70079942.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.70079942.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.ec8e94eb.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.ec8e94eb.js.map",
+    "static/js/2.e191ac51.chunk.js": "/portfolio/static/js/2.e191ac51.chunk.js",
+    "static/js/2.e191ac51.chunk.js.map": "/portfolio/static/js/2.e191ac51.chunk.js.map",
+    "static/js/3.0d0303e3.chunk.js": "/portfolio/static/js/3.0d0303e3.chunk.js",
+    "static/js/3.0d0303e3.chunk.js.map": "/portfolio/static/js/3.0d0303e3.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.22485c96.chunk.css.map": "/portfolio/static/css/main.22485c96.chunk.css.map",
-    "static/js/2.d5c5ed40.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d5c5ed40.chunk.js.LICENSE.txt",
+    "static/css/main.47fec12a.chunk.css.map": "/portfolio/static/css/main.47fec12a.chunk.css.map",
+    "static/js/2.e191ac51.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e191ac51.chunk.js.LICENSE.txt",
     "static/media/background-video.2994a904.mp4": "/portfolio/static/media/background-video.2994a904.mp4",
     "static/media/golang.10000c8c.png": "/portfolio/static/media/golang.10000c8c.png",
     "static/media/graphql.fc6b9451.png": "/portfolio/static/media/graphql.fc6b9451.png",
@@ -22,9 +22,9 @@
     "static/media/react.73ac128a.png": "/portfolio/static/media/react.73ac128a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea5b0b32.js",
-    "static/js/2.d5c5ed40.chunk.js",
-    "static/css/main.22485c96.chunk.css",
-    "static/js/main.f531b02b.chunk.js"
+    "static/js/runtime-main.ec8e94eb.js",
+    "static/js/2.e191ac51.chunk.js",
+    "static/css/main.47fec12a.chunk.css",
+    "static/js/main.70079942.chunk.js"
   ]
 }
