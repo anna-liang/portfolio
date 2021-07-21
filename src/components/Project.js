@@ -17,7 +17,7 @@ function Project(props) {
             </div>
             <div className={(props.justify ? 'project-contents-right' : 'project-contents-left')}>
                 <h3 className="project-title">{props.title}</h3>
-                <p className="project-desc">{props.desc}</p>
+                <p className={(props.justify ? 'project-desc-right' : 'project-desc-left')}>{props.desc}</p>
                 <div className={(props.justify ? 'project-tools-right' : 'project-tools-left')}>
                     <img src={python} className={(props.python ? 'show' : 'hidden')} alt="Python logo"/>
                     <img src={golang} className={(props.golang ? 'show' : 'hidden')} alt="Golang logo"/>
@@ -29,9 +29,7 @@ function Project(props) {
                 <div className={(props.justify ? 'project-links-right' : 'project-links-left')}>
                     <a href={props.github}><img src={github} alt="Github logo" className="logo"/></a>
                     <form action={props.app} className={(props.app ? 'show-long' : 'hidden')} target="_blank">
-                        <button type="submit" className="btn btn-outline-dark">
-                            View App
-                        </button>
+                        <input type="submit" className="btn btn-outline-dark" value="View App" />
                     </form>
                 </div>
             </div>
