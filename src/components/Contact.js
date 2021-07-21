@@ -2,6 +2,7 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import swal from '@sweetalert/with-react';
 import '../styles/Contact.css';
+import '../styles/Main.css';
 
 function Contact(props) {
 
@@ -21,8 +22,8 @@ function Contact(props) {
     
     return (
         <div class="contact-container contact">
-            <h1>Contact</h1>
-            <p className="contact-desc">If you have any questions, feel free to send me a message below or email me at annaliang56@gmail.com.</p>
+            <h1 className="subheading">Contact</h1>
+            <p className="contact-desc">If you have any questions, feel free to send me a message below or email me at <span className="name">annaliang56@gmail.com</span>.</p>
             <form className="contact-form" onSubmit={sendEmail}>
                 <div className="form-group">
                     <input type="text" className="form-control" placeholder="Name" name="name" required/>

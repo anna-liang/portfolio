@@ -1,0 +1,18 @@
+h1, h4, p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    text-align: center;
+}
+
+.subheading {
+    border-bottom: 5px solid #BA181B;
+    padding-bottom: 3px;
+    text-align: center;
+    margin: 50px;
+}
+
+.name {
+    color: #BA181B;
+}

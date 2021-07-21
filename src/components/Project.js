@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Project.css';
+import '../styles/Main.css';
 import python from '../media/python.png';
 import github from '../media/github.png';
 import golang from '../media/golang.png';

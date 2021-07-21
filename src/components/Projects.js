@@ -3,11 +3,13 @@ import Fade from 'react-reveal/Fade';
 import Project from './Project';
 import moodBoardImg from '../media/mood-board.gif'
 import lrddImg from '../media/lrdd.png';
+import '../styles/Project.css';
+import '../styles/Main.css';
 
 function Projects () {
     return (
         <div class="projects">
-          <h1>Projects</h1>
+          <h1 className="subheading">Projects</h1>
           <Fade left>
             <Project
               img={moodBoardImg}

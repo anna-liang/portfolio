@@ -1,11 +1,10 @@
 .projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
     font-family: 'Courier New', Courier, monospace;
-}
-
-h1 {
-    text-align: center;
-    margin: 50px;
 }
 
 .project-container-left {
