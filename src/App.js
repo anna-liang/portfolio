@@ -40,9 +40,9 @@ class App extends Component {
       currentActive[0] = true;
     else if (this.state.scrollOffset > 700 && this.state.scrollOffset < 1400)
       currentActive[1] = true;
-    else if (this.state.scrollOffset >= 1400 && this.state.scrollOffset < 2000)
+    else if (this.state.scrollOffset >= 1400 && this.state.scrollOffset < 2400)
       currentActive[2] = true;
-    else if (this.state.scrollOffset >= 2000)
+    else if (this.state.scrollOffset >= 2400)
       currentActive[3] = true;
     this.setState({
       active: currentActive,
