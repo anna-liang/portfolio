@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -63,6 +64,7 @@ class App extends Component {
         <About/>
         <Projects/>
         <Contact/>
+        <Footer/>
       </Fragment>
     );
   }
