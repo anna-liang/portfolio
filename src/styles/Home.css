@@ -23,7 +23,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: white;
+    background-color: #161A1D;
     opacity: 0.5;
     z-index: 1;
 }
@@ -41,9 +41,11 @@
 
 .title {
     font-family: monospace;
+    color: white;
 }
 
 .description {
     width: 70%;
     text-align: center;
+    color: white;
 }
