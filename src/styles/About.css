@@ -1,6 +1,7 @@
 .about-container {
     display: flex;
     justify-content: center;
+    height: 100vh;
 }
 
 .about {
@@ -14,6 +15,10 @@
 }
 
 .my-info {
+    margin-bottom: 30px;
+}
+
+.my-links {
     display: flex;
     justify-content: space-between;
     align-items: center;

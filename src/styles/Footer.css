@@ -1,6 +1,14 @@
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #161A1D;
     color: white;
     padding-top: 70px;
-    height: 120px;
+    height: 17vh;
+}
+
+.credits-btn {
+    margin-bottom: 20px;
 }
