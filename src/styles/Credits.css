@@ -1,0 +1,41 @@
+.credits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0D0E;
+    color: white;
+    height: 100vh;
+}
+
+.credits-item {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.credits-header-container {
+    position: fixed;
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    z-index: 3;
+    border-bottom: 3px solid #BA181B;
+    background-color: #161A1D;
+    color: white;
+}
+
+.credits-header {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    position: fixed;
+    width: 10%;
+    top: 2%;
+    right: 0;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 3;
+}
+
+.home-link, a:hover {
+    text-decoration: none;
+    color: inherit;
+}

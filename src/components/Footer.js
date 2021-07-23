@@ -1,25 +1,23 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Credits from './Credits';
+import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import '../styles/Footer.css';
 
-function Footer(props) {
+class Footer extends Component {
 
-    return (
-        <Router>
+    render() {
+        return (
             <footer>
                 <div className="credits-btn">
                     <Link to="/portfolio/credits">
-                        <input type="submit" className="btn btn-outline-light" value="Credits"/>
+                        <button type="button" className="btn btn-outline-light">
+                            Credits
+                        </button>
                     </Link>
                 </div>
                 <p>Created and designed by <span className="name">Anna Liang</span> &copy; 2021</p>
             </footer>
-            <Switch>
-                <Route exact path="/credits" component={Credits}></Route>
-            </Switch>
-        </Router>
-    );
+        );
+    }
 }
 
 export default Footer;
