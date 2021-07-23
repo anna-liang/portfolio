@@ -13,6 +13,7 @@ function Credits() {
             </div>
             <div className="credits">
                 <h1 className="subheading">Credits</h1>
+                <h3>Assets</h3>
                 <ul>
                     <li className="credits-item">
                         Title background video by{' '}
@@ -27,6 +28,81 @@ function Credits() {
                             www.pixabay.com
                         </a>{' '}
                     </li>
+                    <li className="credits-item">
+                        Github logo from{' '}
+                        <a
+                            href="https://github.com/logos"
+                            title="Github"
+                        >
+                            Github
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        Golang logo from{' '}
+                        <a
+                            href="https://blog.golang.org/go-brand"
+                            title="Golang"
+                        >
+                            Golang
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        GraphQL logo from{' '}
+                        <a
+                            href="https://commons.wikimedia.org/wiki/File:GraphQL_Logo.svg"
+                            title="Wikimedia Commons"
+                        >
+                            Wikimedia Commons
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        LinkedIn logo from{' '}
+                        <a
+                            href="https://brand.linkedin.com/downloads"
+                            title="LinkedIn"
+                        >
+                            LinkedIn
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        MongoDB logo from{' '}
+                        <a
+                            href="https://www.mongodb.com/brand-resources"
+                            title="MongoDB"
+                        >
+                            MongoDB
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        Node.js logo from{' '}
+                        <a
+                            href="https://nodejs.org/en/about/resources/"
+                            title="Node.js"
+                        >
+                            Node.js
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        Python logo from{' '}
+                        <a
+                            href="https://www.python.org/community/logos/"
+                            title="Python"
+                        >
+                            Python
+                        </a>{' '}
+                    </li>
+                    <li className="credits-item">
+                        React logo from{' '}
+                        <a
+                            href="https://commons.wikimedia.org/wiki/File:React-icon.svg"
+                            title="Wikimedia Commons"
+                        >
+                            Wikimedia Commons
+                        </a>{' '}
+                    </li>
+                </ul>
+                <h3>React</h3>
+                <ul>
                     <li className="credits-item">
                         Guide for{' '}
                         <a
