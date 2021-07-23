@@ -1,11 +1,13 @@
 import './App.css';
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './components/Header';
 import Home from './components/Home';
 import Projects from './components/Projects';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Credits from './components/Credits';
 
 class App extends Component {
 
@@ -55,17 +57,24 @@ class App extends Component {
 
   render() {
     return (
-      <Fragment>
-        <Header 
-          active={this.state.active} 
-          onClick={(i) => this.toggleClass(i)} 
-        />
-        <Home/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-      </Fragment>
+      <Router>
+        <Switch>
+          <Route exact path="/portfolio">
+            <Header 
+              active={this.state.active} 
+              onClick={(i) => this.toggleClass(i)} 
+            />
+            <Home/>
+            <About/>
+            <Projects/>
+            <Contact/>
+            <Footer/>
+          </Route>
+          <Route path="/portfolio/credits">
+            <Credits/>
+          </Route>
+        </Switch>
+      </Router>
     );
   }
 }
