@@ -13,7 +13,7 @@ li:hover, .selected {
     color: #BA181B;
 }
 
-#header {
+.header {
     display: flex;
     list-style: none;
     justify-content: space-around;
