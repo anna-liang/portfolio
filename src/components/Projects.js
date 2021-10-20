@@ -13,12 +13,13 @@ function Projects () {
           <h1 className="subheading">Projects</h1>
           <Fade left>
             <Project
-              img={moodBoardImg}
-              title="Mood Board"
-              desc="Mood Board creates a collection of a user's top 9 Spotify tracks organized in one cohesive a mood board. A Python web application built on a Django framework."
-              python={1}
-              github="https://github.com/anna-liang/mood-board"
-              app="https://mood-boards.herokuapp.com/moodboard"
+              img={shinyTrackerImg}
+              title="Shiny Tracker"
+              desc="A shiny hunt counter and tracker for the most patient people in the world. A simple app using React and NodeJS with components from MUI."
+              mongo={1}
+              node={1}
+              react={1}
+              github="https://github.com/anna-liang/shiny-tracker"
             />
           </Fade>
           <Fade right>
@@ -37,13 +38,12 @@ function Projects () {
           </Fade>
           <Fade left>
             <Project
-              img={shinyTrackerImg}
-              title="Shiny Tracker"
-              desc="A shiny hunt counter and tracker for the most patient people in the world. A simple app using React and NodeJS with components from MUI."
-              mongo={1}
-              node={1}
-              react={1}
-              github="https://github.com/anna-liang/shiny-tracker"
+              img={moodBoardImg}
+              title="Mood Board"
+              desc="Mood Board creates a collection of a user's top 9 Spotify tracks organized in one cohesive a mood board. A Python web application built on a Django framework."
+              python={1}
+              github="https://github.com/anna-liang/mood-board"
+              app="https://mood-boards.herokuapp.com/moodboard"
             />
           </Fade>
         </div>
