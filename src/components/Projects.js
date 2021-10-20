@@ -15,7 +15,7 @@ function Projects () {
             <Project
               img={shinyTrackerImg}
               title="Shiny Tracker"
-              desc="A shiny hunt counter and tracker for the most patient people in the world. A simple app using React and NodeJS with components from MUI."
+              desc="A Pok&eacute;mon shiny hunt counter and tracker for the most patient people in the world. A simple app using React and NodeJS with components from MUI."
               mongo={1}
               node={1}
               react={1}
