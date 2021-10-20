@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import Project from './Project';
 import moodBoardImg from '../media/mood-board.png'
 import lrddImg from '../media/lrdd.png';
+import shinyTrackerImg from '../media/shiny-tracker.png';
 import '../styles/Project.css';
 import '../styles/Main.css';
 
@@ -32,6 +33,17 @@ function Projects () {
               graphql={1}
               github="https://github.com/anna-liang/lrdd"
               app="https://lrdd.herokuapp.com/"
+            />
+          </Fade>
+          <Fade left>
+            <Project
+              img={shinyTrackerImg}
+              title="Shiny Tracker"
+              desc="A shiny hunt counter and tracker for the most patient people in the world. A simple app using React and NodeJS with components from MUI."
+              mongo={1}
+              node={1}
+              react={1}
+              github="https://github.com/anna-liang/shiny-tracker"
             />
           </Fade>
         </div>
