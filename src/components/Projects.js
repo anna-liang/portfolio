@@ -20,6 +20,7 @@ function Projects () {
               node={1}
               react={1}
               github="https://github.com/anna-liang/shiny-tracker"
+              app="http://159.203.27.72/"
             />
           </Fade>
           <Fade right>
