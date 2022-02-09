@@ -24,7 +24,7 @@ class Home extends Component {
                         wrapper='h1'
                         className="title"
                     />
-                    <p className="description">I'm a software developer.</p>
+                    <p className="description">I'm a web developer.</p>
                 </div>
             </div>
         )
