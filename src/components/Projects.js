@@ -41,7 +41,7 @@ function Projects () {
             <Project
               img={moodBoardImg}
               title="Mood Board"
-              desc="Mood Board creates a collection of a user's top 9 Spotify tracks organized in one cohesive a mood board. A Python web application built on a Django framework."
+              desc="Mood Board creates a collection of a user's top 9 Spotify tracks organized in one cohesive mood board. A Python web application built on a Django framework."
               python={1}
               github="https://github.com/anna-liang/mood-board"
               app="https://mood-boards.herokuapp.com/moodboard"
