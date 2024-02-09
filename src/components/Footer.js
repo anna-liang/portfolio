@@ -14,7 +14,7 @@ class Footer extends Component {
                         </button>
                     </Link>
                 </div>
-                <p>Created and designed by <span className="name">Anna Liang</span> &copy; 2021</p>
+                <p>Created and designed by <span className="name">Anna Liang</span> &copy; 2024</p>
             </footer>
         );
     }

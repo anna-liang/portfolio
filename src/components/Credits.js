@@ -101,41 +101,6 @@ function Credits() {
                         </a>{' '}
                     </li>
                 </ul>
-                <h3>React</h3>
-                <ul>
-                    <li className="credits-item">
-                        Guide for{' '}
-                        <a
-                            href="https://medium.com/how-to-react/scroll-to-an-element-on-click-in-react-js-8424e478bb9"
-                            title="Scroll to an element on click in React js"
-                        >
-                            react-scroll
-                        </a>{' '}
-                        by{' '}
-                        <a
-                            href="https://manntrix.medium.com/"
-                            title="Manish Mandal"
-                        >
-                            Manish Mandal
-                        </a>
-                    </li>
-                    <li className="credits-item">
-                        Guide for{' '}
-                        <a
-                            href="https://www.youtube.com/watch?v=NgWGllOjkbs"
-                            title="How to send emails using React through EmailJs"
-                        >
-                            EmailJs
-                        </a>{' '}
-                        by{' '}
-                        <a
-                            href="https://www.youtube.com/channel/UCILGh2xwcP-QXfp6K8HwFfg"
-                            title="RemyFamily"
-                        >
-                            RemyFamily
-                        </a>
-                    </li>
-                </ul>
             </div>
         </div>
     );
