@@ -17,7 +17,7 @@ class App extends Component {
     this.scrollHandler = this.scrollHandler.bind(this);
     this.state = {
       active: Array(1).fill(true).concat(Array(3).fill(false)),
-      scrollOffset: window.pageYOffset,
+      scrollOffset: window.scrollY,
     }
   }
 
@@ -35,7 +35,7 @@ class App extends Component {
 
   scrollHandler() {
     this.setState({
-      scrollOffset: window.pageYOffset,
+      scrollOffset: window.scrollY,
     });
     let currentActive = Array(4).fill(false);
     if (this.state.scrollOffset < 700)
