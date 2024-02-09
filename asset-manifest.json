@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e56df23b.chunk.css",
-    "main.js": "/portfolio/static/js/main.517d81e7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.517d81e7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b3946dc5.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b3946dc5.js.map",
-    "static/js/2.b3f6b770.chunk.js": "/portfolio/static/js/2.b3f6b770.chunk.js",
-    "static/js/2.b3f6b770.chunk.js.map": "/portfolio/static/js/2.b3f6b770.chunk.js.map",
-    "static/js/3.7e32a6bb.chunk.js": "/portfolio/static/js/3.7e32a6bb.chunk.js",
-    "static/js/3.7e32a6bb.chunk.js.map": "/portfolio/static/js/3.7e32a6bb.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bb493b2e.css",
+    "main.js": "/portfolio/static/js/main.aefb3033.js",
+    "static/js/592.a076e851.chunk.js": "/portfolio/static/js/592.a076e851.chunk.js",
+    "static/media/background-video.mp4": "/portfolio/static/media/background-video.11534cb67e9ee82900a2.mp4",
+    "static/media/mood-board.png": "/portfolio/static/media/mood-board.fa3b5aa9a26ff8ccbc1a.png",
+    "static/media/python.png": "/portfolio/static/media/python.9431343c453e999f63a7.png",
+    "static/media/graphql.png": "/portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
+    "static/media/lrdd.png": "/portfolio/static/media/lrdd.78e4f085b28cab37f4c5.png",
+    "static/media/react.png": "/portfolio/static/media/react.73ac128ace7cbddf3d39.png",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.057de5cdb374be094c42.png",
+    "static/media/shiny-tracker.png": "/portfolio/static/media/shiny-tracker.644a9259128c45efceec.png",
+    "static/media/golang.png": "/portfolio/static/media/golang.10000c8c9d54a6d9d887.png",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e56df23b.chunk.css.map": "/portfolio/static/css/main.e56df23b.chunk.css.map",
-    "static/js/2.b3f6b770.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b3f6b770.chunk.js.LICENSE.txt",
-    "static/media/background-video.11534cb6.mp4": "/portfolio/static/media/background-video.11534cb6.mp4",
-    "static/media/golang.10000c8c.png": "/portfolio/static/media/golang.10000c8c.png",
-    "static/media/graphql.fc6b9451.png": "/portfolio/static/media/graphql.fc6b9451.png",
-    "static/media/lrdd.78e4f085.png": "/portfolio/static/media/lrdd.78e4f085.png",
-    "static/media/mongo.057de5cd.png": "/portfolio/static/media/mongo.057de5cd.png",
-    "static/media/mood-board.fa3b5aa9.png": "/portfolio/static/media/mood-board.fa3b5aa9.png",
-    "static/media/python.9431343c.png": "/portfolio/static/media/python.9431343c.png",
-    "static/media/react.73ac128a.png": "/portfolio/static/media/react.73ac128a.png",
-    "static/media/shiny-tracker.644a9259.png": "/portfolio/static/media/shiny-tracker.644a9259.png"
+    "main.bb493b2e.css.map": "/portfolio/static/css/main.bb493b2e.css.map",
+    "main.aefb3033.js.map": "/portfolio/static/js/main.aefb3033.js.map",
+    "592.a076e851.chunk.js.map": "/portfolio/static/js/592.a076e851.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3946dc5.js",
-    "static/js/2.b3f6b770.chunk.js",
-    "static/css/main.e56df23b.chunk.css",
-    "static/js/main.517d81e7.chunk.js"
+    "static/css/main.bb493b2e.css",
+    "static/js/main.aefb3033.js"
   ]
 }
