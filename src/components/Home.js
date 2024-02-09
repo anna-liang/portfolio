@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect'
 import '../styles/Home.css'
 import backgroundVideo from '../media/background-video.mp4'
 
@@ -19,12 +19,17 @@ class Home extends Component {
                     </video>
                 </div>
                 <div className="background-video-content" id="home">
-                    <Typical
-                        steps={['Anna Liang']}
-                        wrapper='h1'
-                        className="title"
-                    />
-                    <p className="description">I'm a web developer.</p>
+                    <div className='title'>
+                        <Typewriter
+                            options={{
+                                strings: ['Anna Liang'],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                            
+                        />
+                    </div>
+                    <p className="description">I'm a developer.</p>
                 </div>
             </div>
         )
