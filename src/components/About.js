@@ -11,11 +11,10 @@ function About () {
                 <h1 className="subheading">About</h1>
                 <h4>Hi, I'm <span className="name">Anna Liang</span>.</h4>
                 <div className="my-info">
-                    <p>I'm a recently graduated web developer from the University of Toronto with a passion for creating things.</p>
-                    <p>I've worked various web development positions as a co-op student and, at these positions, I have been able to apply
-                        my attention to detail to my work as well as coordinate with stakeholders to meet their needs.</p>
-                    <p>As a result of my work, I've developed a passion for web development and am seeking full-stack positions.</p>
-                    <p>In addition to programming, I also like drawing and playing games!</p>
+                    <p>I'm graduated from the University of Toronto with a passion for creating things.</p>
+                    <p>I've worked various web development positions as an intern during my time at school. After graduating, I worked as a full-stack mobile developer for a neobank startup.</p>
+                    <p>As a result of my work, I've developed a passion for both web and mobile development and I am seeking full-stack opportunities.</p>
+                    <p>In addition to programming, I spend my spare time watching movies, reading, drawing, and playing video games!</p>
                     <p>Learn more about my experience and my projects down below.</p>
                 </div>
                 <div className="my-links">
