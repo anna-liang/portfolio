@@ -2,12 +2,12 @@ import "./App.css";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import { Home } from "./components/Home";
 import { Projects } from "./components/Projects";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Credits from "./components/Credits";
+import { About } from "./components/About";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
+import { Credits } from "./components/Credits";
 import { WorkExperience } from "./components/WorkExperience";
 
 class App extends Component {

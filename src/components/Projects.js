@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project";
+import { Project } from "./Project";
 import moodBoardImg from "../media/mood-board-small.png";
 import lrddImg from "../media/lrdd-small.png";
 import shinyTrackerImg from "../media/shiny-tracker-small.png";

@@ -37,5 +37,3 @@ export const Project = ({ img, title, desc, github, app, tools }) => (
     </div>
   </div>
 );
-
-export default Project;

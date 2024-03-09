@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/Contact.css";
 import "../styles/Main.css";
 
-function Contact(props) {
+export const Contact = () => {
   return (
     <div className="contact-container contact">
       <h1 className="subheading">Contact</h1>
@@ -12,6 +12,4 @@ function Contact(props) {
       </p>
     </div>
   );
-}
-
-export default Contact;
+};
