@@ -9,9 +9,8 @@ function About () {
         <div className="about-container">
             <div className="about">
                 <h1 className="subheading">About</h1>
-                <h4>Hi, I'm <span className="name">Anna Liang</span>.</h4>
                 <div className="my-info">
-                    <p>I'm graduated from the University of Toronto with a passion for creating things.</p>
+                    <p>I graduated from the University of Toronto with a passion for creating things.</p>
                     <p>I've worked various web development positions as an intern during my time at school. After graduating, I worked as a full-stack mobile developer for a neobank startup.</p>
                     <p>As a result of my work, I've developed a passion for both web and mobile development and I am seeking full-stack opportunities.</p>
                     <p>In addition to programming, I spend my spare time watching movies, reading, drawing, and playing video games!</p>
