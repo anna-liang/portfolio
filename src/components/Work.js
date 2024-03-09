@@ -31,7 +31,7 @@ export const Work = ({
       <p className="role-description">{description}</p>
       <div className="tools">
         {tools.map((tool) => (
-          <div className="tool-container">
+          <div className="tool-container" key={tool}>
             <Tool name={tool} />
           </div>
         ))}

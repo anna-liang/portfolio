@@ -13,7 +13,7 @@ export const Project = ({ img, title, desc, github, app, tools }) => (
       <p className="project-desc">{desc}</p>
       <div className="project-tools">
         {tools.map((tool) => (
-          <div className="project-tool-container">
+          <div className="project-tool-container" key={tool}>
             <Tool name={tool} />
           </div>
         ))}

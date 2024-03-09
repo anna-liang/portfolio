@@ -35,7 +35,7 @@ export const WorkExperience = () => {
       </div>
       {allWork.map((work) => {
         return (
-          <div id={`${work.companyName}-cover`}>
+          <div id={`${work.companyName}-cover`} key={work.companyName}>
             <Work
               workImageSmall={work.workImageSmall}
               workImageMedium={work.workImageMedium}
