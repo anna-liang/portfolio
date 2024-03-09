@@ -24,3 +24,21 @@ li:hover, .selected {
     font-family: 'Courier New', Courier, monospace;
     z-index: 3;
 }
+
+@media (width < 1024px) {
+    .header {
+        width: 60%;
+    }
+}
+
+@media (width < 768px) {
+    .header {
+        width: 85%;
+    }
+}
+
+@media (width < 480px) {
+    .header {
+        width: 100%;
+    }
+}
