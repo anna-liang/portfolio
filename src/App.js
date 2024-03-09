@@ -1,7 +1,7 @@
 import "./App.css";
-import React, { Component } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./components/Header";
+import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { Projects } from "./components/Projects";
 import { About } from "./components/About";
@@ -10,79 +10,62 @@ import { Footer } from "./components/Footer";
 import { Credits } from "./components/Credits";
 import { WorkExperience } from "./components/WorkExperience";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.toggleClass = this.toggleClass.bind(this);
-    this.scrollHandler = this.scrollHandler.bind(this);
-    this.state = {
-      active: Array(1).fill(true).concat(Array(4).fill(false)),
-      scrollOffset: window.scrollY,
-    };
-  }
+export const App = () => {
+  const [active, setActive] = useState(
+    Array(1).fill(true).concat(Array(4).fill(false))
+  );
+  const [scrollOffset, setScrollOffset] = useState(window.scrollY);
 
-  toggleClass(i) {
-    const currentActive = this.state.active;
-    for (let j = 0; j < 5; j++) {
-      if (j === i || currentActive[j]) currentActive[j] = !currentActive[j];
+  const toggleClass = (index) => {
+    const updatedActive = [...active];
+    for (let i = 0; i < 5; i++) {
+      if (i === index || active[i]) updatedActive[i] = !active[i];
     }
-    this.setState({
-      active: currentActive,
-    });
-  }
+    setActive([...updatedActive]);
+  };
 
-  scrollHandler() {
-    this.setState({
-      scrollOffset: window.scrollY,
-    });
+  const scrollHandler = useCallback(() => {
+    setScrollOffset(window.scrollY);
     let currentActive = Array(5).fill(false);
     // home
-    if (this.state.scrollOffset < 700) currentActive[0] = true;
+    if (scrollOffset < 700) currentActive[0] = true;
     // about
-    else if (this.state.scrollOffset > 700 && this.state.scrollOffset < 1800)
-      currentActive[1] = true;
+    else if (scrollOffset > 700 && scrollOffset < 1800) currentActive[1] = true;
     // work
-    else if (this.state.scrollOffset >= 1800 && this.state.scrollOffset < 2600)
+    else if (scrollOffset >= 1800 && scrollOffset < 2600)
       currentActive[2] = true;
     // projects
-    else if (this.state.scrollOffset >= 2600 && this.state.scrollOffset < 4000)
+    else if (scrollOffset >= 2600 && scrollOffset < 4000)
       currentActive[3] = true;
     // contact
-    else if (this.state.scrollOffset >= 4000) currentActive[4] = true;
-    this.setState({
-      active: currentActive,
-    });
-  }
+    else if (scrollOffset >= 4000) currentActive[4] = true;
+    setActive([...currentActive]);
+  }, [scrollOffset]);
 
-  componentDidMount = () =>
-    window.addEventListener("scroll", this.scrollHandler);
+  useEffect(() => {
+    window.addEventListener("scroll", scrollHandler);
 
-  componentWillUnmount = () =>
-    window.removeEventListener("scroll", this.scrollHandler);
+    return () => window.removeEventListener("scroll", scrollHandler);
+  }, [scrollHandler]);
 
-  render() {
-    return (
-      <Router>
-        <Switch>
-          <Route exact path="/portfolio">
-            <Header
-              active={this.state.active}
-              onClick={(i) => this.toggleClass(i)}
-            />
-            <Home />
-            <About />
-            <WorkExperience />
-            <Projects />
-            <Contact />
-            <Footer />
-          </Route>
-          <Route path="/portfolio/credits">
-            <Credits />
-          </Route>
-        </Switch>
-      </Router>
-    );
-  }
-}
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/portfolio">
+          <Header active={active} onClick={(i) => toggleClass(i)} />
+          <Home />
+          <About />
+          <WorkExperience />
+          <Projects />
+          <Contact />
+          <Footer />
+        </Route>
+        <Route path="/portfolio/credits">
+          <Credits />
+        </Route>
+      </Switch>
+    </Router>
+  );
+};
 
 export default App;
