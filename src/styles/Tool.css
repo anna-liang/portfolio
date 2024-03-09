@@ -1,0 +1,11 @@
+.tool {
+    background-color: #BA181B;
+    color: white;
+    border-radius: 16px;
+    padding: 2px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+    width: auto;
+    white-space: nowrap;
+}
