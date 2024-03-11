@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import Typewriter from "typewriter-effect";
 import "../styles/Home.css";
 import backgroundVideo from "../media/background-video.mp4";

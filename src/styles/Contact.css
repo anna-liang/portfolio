@@ -27,7 +27,8 @@ textarea {
 }
 
 .contact-desc {
-    width: 40%;
+    width: 50vw;
+    text-align: center;
 }
 
 .contact-form-submit {
