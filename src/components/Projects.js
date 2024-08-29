@@ -11,7 +11,7 @@ export const Projects = () => {
     {
       img: shinyTrackerImg,
       title: "Shiny Tracker",
-      desc: "A Pokémon shiny hunt counter and tracker for the most those who like to find shiny pokémon.",
+      desc: "A Pokémon shiny hunt counter and tracker for those who like to find shiny pokémon.",
       tools: ["JavaScript", "Node.js", "React", "MongoDB"],
       github: "https://github.com/anna-liang/shiny-tracker",
     },
