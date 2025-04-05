@@ -1,33 +1,42 @@
-import React from "react";
-import { Project } from "./Project";
-import moodBoardImg from "../media/mood-board-small.png";
-import lrddImg from "../media/lrdd-small.png";
-import shinyTrackerImg from "../media/shiny-tracker-small.png";
-import "../styles/Project.css";
-import "../styles/Main.css";
+import React from 'react';
+import { Project } from './Project';
+import moodBoardImg from '../media/mood-board-small.png';
+import lrddImg from '../media/lrdd-small.png';
+import shinyTrackerImg from '../media/shiny-tracker-small.png';
+import gamesLibraryImg from '../media/games-library-small.png';
+import '../styles/Project.css';
+import '../styles/Main.css';
 
 export const Projects = () => {
   const projects = [
     {
+      img: gamesLibraryImg,
+      title: 'Games Library',
+      desc: 'Load your Steam library and view your games and achievements all on one dashboard.',
+      tools: ['React', 'TypeScript', 'Next.js', 'Tailwind'],
+      github: 'https://github.com/anna-liang/games-library',
+      app: 'https://games-library-murex.vercel.app/',
+    },
+    {
       img: shinyTrackerImg,
-      title: "Shiny Tracker",
-      desc: "A Pokémon shiny hunt counter and tracker for those who like to find shiny pokémon.",
-      tools: ["JavaScript", "Node.js", "React", "MongoDB"],
-      github: "https://github.com/anna-liang/shiny-tracker",
+      title: 'Shiny Tracker',
+      desc: 'A Pokémon shiny hunt counter and tracker for those who like to find shiny pokémon.',
+      tools: ['JavaScript', 'Node.js', 'React', 'MongoDB'],
+      github: 'https://github.com/anna-liang/shiny-tracker',
     },
     {
       img: lrddImg,
-      title: "La Room de Discode",
-      desc: "A collaborative videotelephony editor for users to host rooms and work on coding problems together.",
-      tools: ["JavaScript", "Node.js", "React", "MongoDB", "GraphQL"],
-      github: "https://github.com/anna-liang/lrdd",
+      title: 'La Room de Discode',
+      desc: 'A collaborative videotelephony editor for users to host rooms and work on coding problems together.',
+      tools: ['JavaScript', 'Node.js', 'React', 'MongoDB', 'GraphQL'],
+      github: 'https://github.com/anna-liang/lrdd',
     },
     {
       img: moodBoardImg,
-      title: "Mood Board",
+      title: 'Mood Board',
       desc: "Mood Board creates a collection of a user's top 9 Spotify tracks organized in one cohesive mood board.",
-      tools: ["Python", "Django"],
-      github: "https://github.com/anna-liang/mood-board",
+      tools: ['Python', 'Django'],
+      github: 'https://github.com/anna-liang/mood-board',
     },
   ];
 
@@ -46,6 +55,7 @@ export const Projects = () => {
                 tools={project.tools}
                 github={project.github}
                 key={project.title}
+                app={project?.app}
               />
             ))
           : null}

@@ -1,9 +1,9 @@
-import React from "react";
-import "../styles/Project.css";
-import "../styles/Main.css";
-import githubImg from "../media/github.png";
-import { ProjectImage } from "./ProjectImage";
-import { Tool } from "./Tool";
+import React from 'react';
+import '../styles/Project.css';
+import '../styles/Main.css';
+import githubImg from '../media/github.png';
+import { ProjectImage } from './ProjectImage';
+import { Tool } from './Tool';
 
 export const Project = ({ img, title, desc, github, app, tools }) => (
   <div className="project-container">
@@ -19,12 +19,12 @@ export const Project = ({ img, title, desc, github, app, tools }) => (
         ))}
       </div>
       <div className="project-links">
-        <a href={github}>
+        <a href={github} className="project-link">
           <img src={githubImg} alt="Github logo" className="logo" />
         </a>
         <form
           action={app}
-          className={app ? "show-long" : "hidden"}
+          className={app ? 'show-long' : 'hidden'}
           target="_blank"
         >
           <input
