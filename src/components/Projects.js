@@ -4,11 +4,19 @@ import moodBoardImg from '../media/mood-board-small.png';
 import lrddImg from '../media/lrdd-small.png';
 import shinyTrackerImg from '../media/shiny-tracker-small.png';
 import gamesLibraryImg from '../media/games-library-small.png';
+import goldStickerTrackerImg from '../media/gold-sticker-tracker-small.png';
 import '../styles/Project.css';
 import '../styles/Main.css';
 
 export const Projects = () => {
   const projects = [
+    {
+      img: goldStickerTrackerImg,
+      title: 'Gold Sticker Tracker',
+      desc: 'Track progress towards the Completionist++ achievement in Balatro.',
+      tools: ['React', 'TypeScript', 'Node.js', 'Express'],
+      github: 'https://github.com/anna-liang/balatro-gold-sticker-tracker',
+    },
     {
       img: gamesLibraryImg,
       title: 'Games Library',
