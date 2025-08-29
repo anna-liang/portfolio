@@ -14,8 +14,9 @@ export const Projects = () => {
       img: goldStickerTrackerImg,
       title: 'Gold Sticker Tracker',
       desc: 'Track progress towards the Completionist++ achievement in Balatro.',
-      tools: ['React', 'TypeScript', 'Node.js', 'Express'],
+      tools: ['React', 'TypeScript'],
       github: 'https://github.com/anna-liang/balatro-gold-sticker-tracker',
+      app: 'https://anna-liang.github.io/balatro-gold-sticker-tracker/',
     },
     {
       img: gamesLibraryImg,
