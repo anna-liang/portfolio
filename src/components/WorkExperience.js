@@ -1,10 +1,9 @@
-import React from "react";
-import movesSmall from "../media/moves.png";
-import movesMedium from "../media/moves2x.png";
-import movesLarge from "../media/moves4x.png";
-import "../styles/Work.css";
-import "../styles/Main.css";
-import { Work } from "./Work";
+import movesSmall from '../media/moves.png';
+import movesMedium from '../media/moves2x.png';
+import movesLarge from '../media/moves4x.png';
+import '../styles/Work.css';
+import '../styles/Main.css';
+import { Work } from './Work';
 
 export const WorkExperience = () => {
   const allWork = [
@@ -12,18 +11,18 @@ export const WorkExperience = () => {
       workImageSmall: movesSmall,
       workImageMedium: movesMedium,
       workImageLarge: movesLarge,
-      companyName: "moves",
-      timeline: "May 2022 - Dec 2023",
-      role: "Junior Software Developer | Intermediate Software Developer",
+      companyName: 'moves',
+      timeline: 'May 2022 - Dec 2023',
+      role: 'Junior Software Developer | Intermediate Software Developer',
       description:
-        "Collaborated closely with product, design, engineering, and QA teams to groom, implement, test, and support new features, creating a seamless integration and optimal user experience. Successfully led initiatives and projects including major front-end re-brandings, consolidating and aggregating thousands of data points from multiple vendors to present an annual view, and introducing both an in-app update and in-app review nudge for the mobile app.",
+        'As a Software Developer, I collaborated closely with product, design, engineering, and QA teams to groom, implement, test, and support new features, creating a seamless integration and optimal user experience. I also successfully led initiatives and projects including major front-end re-brandings, consolidating and aggregating thousands of data points from multiple vendors to present an annual view, and introducing both an in-app update and in-app review nudge for the mobile app.',
       tools: [
-        "TypeScript",
-        "React Native",
-        "Redux",
-        "Node.js",
-        "MongoDB",
-        "Amplitude",
+        'TypeScript',
+        'React Native',
+        'Redux',
+        'Node.js',
+        'MongoDB',
+        'Amplitude',
       ],
     },
   ];
