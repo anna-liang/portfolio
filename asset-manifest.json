@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ae970f40.css",
-    "main.js": "/portfolio/static/js/main.f813087e.js",
+    "main.css": "/portfolio/static/css/main.d6d22ef9.css",
+    "main.js": "/portfolio/static/js/main.b71044f1.js",
     "static/js/592.a076e851.chunk.js": "/portfolio/static/js/592.a076e851.chunk.js",
     "static/media/background-video.mp4": "/portfolio/static/media/background-video.11534cb67e9ee82900a2.mp4",
     "static/media/games-library-small.png": "/portfolio/static/media/games-library-small.054220125fa7ee3bf5a7.png",
@@ -15,12 +15,12 @@
     "static/media/tanolabs2x.png": "/portfolio/static/media/tanolabs2x.efb2bca6ecaa2aa86e7e.png",
     "static/media/shiny-tracker-small.png": "/portfolio/static/media/shiny-tracker-small.3f148a727b3a6626f1fd.png",
     "index.html": "/portfolio/index.html",
-    "main.ae970f40.css.map": "/portfolio/static/css/main.ae970f40.css.map",
-    "main.f813087e.js.map": "/portfolio/static/js/main.f813087e.js.map",
+    "main.d6d22ef9.css.map": "/portfolio/static/css/main.d6d22ef9.css.map",
+    "main.b71044f1.js.map": "/portfolio/static/js/main.b71044f1.js.map",
     "592.a076e851.chunk.js.map": "/portfolio/static/js/592.a076e851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae970f40.css",
-    "static/js/main.f813087e.js"
+    "static/css/main.d6d22ef9.css",
+    "static/js/main.b71044f1.js"
   ]
 }
