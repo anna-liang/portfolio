@@ -1,7 +1,7 @@
-import React from "react";
-import "../styles/Work.css";
-import "../styles/Main.css";
-import { Tool } from "./Tool";
+import React from 'react';
+import '../styles/Work.css';
+import '../styles/Main.css';
+import { Tool } from './Tool';
 
 export const Work = ({
   workImageSmall,
@@ -13,8 +13,8 @@ export const Work = ({
   description,
   tools,
 }) => (
-  <div>
-    <div className="work-cover-container">
+  <div className="work">
+    <div className="work-cover-container" id={`${companyName}-cover`}>
       <img
         id="work-cover"
         src={workImageLarge}
@@ -23,9 +23,7 @@ export const Work = ({
       />
     </div>
     <div className="work-info">
-      <h1 className="company-name">
-        {companyName.charAt(0).toUpperCase() + companyName.slice(1)}
-      </h1>
+      <h1 className="company-name">{companyName}</h1>
       <p className="timeline">{timeline}</p>
       <p className="role">{role}</p>
       <p className="role-description">{description}</p>

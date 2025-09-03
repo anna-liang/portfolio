@@ -1,72 +1,77 @@
 .work-container {
-    height: 115vh;
+  height: auto;
+  margin-bottom: 150px;
 }
 
 .work-subheading-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.work {
+  margin-bottom: 50px;
 }
 
 .work-cover-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .work-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .company-name {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .timeline {
-    opacity: .6;
+  opacity: 0.6;
 }
 
 .role {
-    margin-top: -10px;
-    font-weight: bold;
+  margin-top: -10px;
+  font-weight: bold;
 }
 
 .role-description {
-    margin-left: 15vw;
-    margin-right: 15vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 .tools {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 40vw;
-    justify-content: space-evenly;
-    align-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-evenly;
+  align-content: space-around;
 }
 
 .tool-container {
-    margin-right: 2vw;
-    margin-top: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vw;
 }
 
 @media (width > 1024px) {
-    #work-cover {
-        max-width: 1024px;
-    }
+  #work-cover {
+    max-width: 1024px;
+  }
 
-    #moves-cover {
-        height: 500px;
-        background-color: #1F2933;
-    }
+  #Moves-cover {
+    height: 500px;
+    background-color: #1f2933;
+  }
 }
 
 @media (width < 800px) {
-    .tools {
-        display: flex;
-        justify-content: space-evenly;
-        width: 50vw;
-    }
+  .tools {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+  }
 }
