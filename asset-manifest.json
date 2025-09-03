@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d40b9dbd.css",
-    "main.js": "/portfolio/static/js/main.12798b0c.js",
+    "main.css": "/portfolio/static/css/main.ae970f40.css",
+    "main.js": "/portfolio/static/js/main.f813087e.js",
     "static/js/592.a076e851.chunk.js": "/portfolio/static/js/592.a076e851.chunk.js",
     "static/media/background-video.mp4": "/portfolio/static/media/background-video.11534cb67e9ee82900a2.mp4",
     "static/media/games-library-small.png": "/portfolio/static/media/games-library-small.054220125fa7ee3bf5a7.png",
@@ -9,16 +9,18 @@
     "static/media/mood-board-small.png": "/portfolio/static/media/mood-board-small.54fbffa66a27661e999b.png",
     "static/media/gold-sticker-tracker-small.png": "/portfolio/static/media/gold-sticker-tracker-small.0ab03f8c248a7f1c514f.png",
     "static/media/moves2x.png": "/portfolio/static/media/moves2x.fa28b4f54d71e87be6a8.png",
+    "static/media/tanolabs4x.jpg": "/portfolio/static/media/tanolabs4x.be5074b62050e978f9ca.jpg",
     "static/media/lrdd-small.png": "/portfolio/static/media/lrdd-small.8b1cf4c43d75afc7bd99.png",
     "static/media/moves.png": "/portfolio/static/media/moves.b460ae76ab11d867b6b2.png",
+    "static/media/tanolabs2x.png": "/portfolio/static/media/tanolabs2x.efb2bca6ecaa2aa86e7e.png",
     "static/media/shiny-tracker-small.png": "/portfolio/static/media/shiny-tracker-small.3f148a727b3a6626f1fd.png",
     "index.html": "/portfolio/index.html",
-    "main.d40b9dbd.css.map": "/portfolio/static/css/main.d40b9dbd.css.map",
-    "main.12798b0c.js.map": "/portfolio/static/js/main.12798b0c.js.map",
+    "main.ae970f40.css.map": "/portfolio/static/css/main.ae970f40.css.map",
+    "main.f813087e.js.map": "/portfolio/static/js/main.f813087e.js.map",
     "592.a076e851.chunk.js.map": "/portfolio/static/js/592.a076e851.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d40b9dbd.css",
-    "static/js/main.12798b0c.js"
+    "static/css/main.ae970f40.css",
+    "static/js/main.f813087e.js"
   ]
 }
