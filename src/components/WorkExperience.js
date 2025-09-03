@@ -3,7 +3,7 @@ import movesMedium from '../media/moves2x.png';
 import movesLarge from '../media/moves4x.png';
 import tanolabsSmall from '../media/tanolabs.png';
 import tanolabsMedium from '../media/tanolabs2x.png';
-import tanolabsLarge from '../media/tanolabs4x.jpg';
+import tanolabsLarge from '../media/tanolabs4x.png';
 import '../styles/Work.css';
 import '../styles/Main.css';
 import { Work } from './Work';
