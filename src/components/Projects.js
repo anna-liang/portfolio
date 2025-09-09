@@ -11,6 +11,13 @@ import '../styles/Main.css';
 export const Projects = () => {
   const projects = [
     {
+      img: null,
+      title: '[WIP] MLB Dashboard',
+      desc: `A complete dashboard for MLB's games, teams, players, and statistics. `,
+      tools: ['Vue.js', 'TypeScript', 'Tailwind', 'Node.js'],
+      github: 'https://github.com/anna-liang/mlb-dashboard',
+    },
+    {
       img: goldStickerTrackerImg,
       title: 'Gold Sticker Tracker',
       desc: 'Track progress towards the Completionist++ achievement in Balatro.',

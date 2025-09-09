@@ -7,7 +7,11 @@ import { Tool } from './Tool';
 
 export const Project = ({ img, title, desc, github, app, tools }) => (
   <div className="project-container">
-    <ProjectImage img={img} />
+    {img ? (
+      <ProjectImage img={img} />
+    ) : (
+      <h1 className="project-image-container">Under Construction</h1>
+    )}
     <div className="project-contents">
       <h3 className="project-title">{title}</h3>
       <p className="project-desc">{desc}</p>
