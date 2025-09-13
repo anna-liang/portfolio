@@ -18,6 +18,14 @@ export const Projects = () => {
       github: 'https://github.com/anna-liang/mlb-dashboard',
     },
     {
+      img: shinyTrackerImg,
+      title: 'Shiny Tracker',
+      desc: 'A Pokémon shiny hunt counter and tracker for those who like to find shiny pokémon.',
+      tools: ['Vue.js', 'TypeScript', 'Tailwind'],
+      github: 'https://github.com/anna-liang/shiny-tracker',
+      app: 'https://shiny-tracker-navy.vercel.app/',
+    },
+    {
       img: goldStickerTrackerImg,
       title: 'Gold Sticker Tracker',
       desc: 'Track progress towards the Completionist++ achievement in Balatro.',
@@ -32,13 +40,6 @@ export const Projects = () => {
       tools: ['React', 'TypeScript', 'Next.js', 'Tailwind'],
       github: 'https://github.com/anna-liang/games-library',
       app: 'https://games-library-murex.vercel.app/',
-    },
-    {
-      img: shinyTrackerImg,
-      title: 'Shiny Tracker',
-      desc: 'A Pokémon shiny hunt counter and tracker for those who like to find shiny pokémon.',
-      tools: ['JavaScript', 'Node.js', 'React', 'MongoDB'],
-      github: 'https://github.com/anna-liang/shiny-tracker',
     },
     {
       img: lrddImg,
