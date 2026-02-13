@@ -12,8 +12,23 @@ export const Projects = () => {
   const projects = [
     {
       img: null,
+      title: '[WIP] Bookends',
+      desc: `An all-in-one book cataloging application to search for and keep track of books.`,
+      tools: [
+        'Next.js',
+        'TypeScript',
+        'Tailwind',
+        'TanStack Query',
+        'Node.js',
+        'PostgreSQL',
+        'Redis',
+      ],
+      github: 'https://github.com/anna-liang/bookends',
+    },
+    {
+      img: null,
       title: '[WIP] MLB Dashboard',
-      desc: `A complete dashboard for MLB's games, teams, players, and statistics. `,
+      desc: `A complete dashboard for MLB's games, teams, players, and statistics.`,
       tools: ['Vue.js', 'TypeScript', 'Tailwind', 'Node.js'],
       github: 'https://github.com/anna-liang/mlb-dashboard',
     },
